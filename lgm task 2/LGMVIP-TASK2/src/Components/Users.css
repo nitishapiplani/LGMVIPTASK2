@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap");
+body {
+  overflow-x: hidden;
+}
+.bg-default {
+  background-color: #195190ff !important;
+  height: 70px;
+}
+
+.navbar-brand {
+  font-family: "Noto Serif TC", serif;
+  font-size: xx-large;
+}
+
+.button {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.loader-position {
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  margin-top: 10%;
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #195190ff;
+  width: 70px;
+  height: 70px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.card-display {
+  display: flex;
+  justify-content: center;
+}

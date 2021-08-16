@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
+
+.image-position {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.image:hover {
+  width: 200px;
+}
+
+.card {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.1);
+  background-color: #a2a2a1ff;
+  border: 4px solid #195190ff;
+}
+.card:hover {
+  transform: scale(1.08);
+}
+
+h4 {
+  font-family: "Roboto Slab", serif;
+  color: #666633;
+  font-weight: 600;
+}
+
+h6 {
+  font-family: "Noto Serif JP", serif;
+  color: #195190ff;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: large;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+}
